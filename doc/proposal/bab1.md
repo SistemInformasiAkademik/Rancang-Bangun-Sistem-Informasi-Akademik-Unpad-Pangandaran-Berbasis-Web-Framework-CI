@@ -1,40 +1,38 @@
-<h3 align="center"> BAB I <br> 
-PENDAHULUAN </h3>
+<h3 align="center"> CHAPTER I <br> 
+INTRODUCTION </h3>
 <br>
-<b>1.1	Latar Belakang </b>
+<b>1.1  Backgroundg </b>
 <p align="justify">
-Di era saat ini teknologi memang sudah sangat pesat bertumbuh di kehidupan masyarakat terutama di system pendidikan atau di system akademik pendidikan di Indonesia sudah mulai bertumbuh lebih baik, Teknologi Informasi dan Komunikasi (TIK) sebagai bagian dari ilmu pengetahuan dan teknologi secara umum adalah semua teknologi yang berhubungan dengan pengambilan, pengumpulan, pengolahan, penyimpanan, penyebaran, dan penyajian informasi. Perkembangan teknologi informasi ini juga membawa pengaruh luar biasa pada kehidupan dan cara pandang manusia terhadap teknologi sekarang dan di masa yang akan datang. Komputer, telepon seluler, dan produk elektronik lainnya menjelma menjadi alat pendukung kerja yang utama dan telah mengubah cara pandang, perilaku manusia dalam kehidupan sehari-hari. Teknologi informasi komunikasi sangat berperan dalam mendukung dan meningkatkan efisiensi, dan memungkinkan pekerjaan dilakukan dari mana saja. Sekolah sebagai suatu instansi pemerintah di bidang pendidikan banyak melakukan pengolahan data dalam pengadministrasian data baik data siswa, guru maupun staff. Sering kali data-data tersebut dalam jumlah yang besar dan dapat berubah sewaktu-waktu sehingga pernyimpanan dan pengadministrasian harus dilakukan dengan baik dan selalu di update secara continue, Pengadministrasian menuntut efisiensi dan efektifitas yang berorientasi kepada tujuan, penggunaan sumber daya dan mekanisme pengolahan yang nantinya dapat digunakan sebagai sumber informasi yang sewaktu-waktu dibutuhkan.<br>
-Sasaran dari program ini adalah Unpad Pangandaran. Ditinjau dari sistem informasi akademiknya, sekolah tersebut masih mempunyai banyak kendala yang dapat digambarkan sebagai berikut.<br>
-a.	Sistem pengelolaan dan penyajian data mahasiswa, dosen dan nilai yang masih secara manual berupa berkas yang tersimpan dalam rak, dan menggunakan komputer namun hanya berupa file yang tersimpan dalam 2 atau 3 komputer saja. <br>
-b.	Waktu yang dibutuhkan untuk mencari data relatif lama yaitu dengan memeriksa setiap berkas yang sangat banyak atau membuka folder-folder di komputer tata usaha. <br>
-c.	Dengan sistem manual dan komputer tanpa koneksi internet, pengguna mengalami kesulitan dalam mengakses informasi dan mencari informasi yang kompleks. <br>
+University of Padjajaran or known by the acronym Unpad is one of the universities that existed in Inonesia. University of Padjajaran campus opens new Education Bachelor of Multi campuses in Pangandaran.
+The academic services of the University of Padjajaran campus multi Pangandaran is still done manually. With such systems are still not effective, these services are still not managed systematically so that needs the help of the computerized system to facilitate Staff in managing the academic service especially regarding value data, students and Lecturers.
+The existence of the problem, then it needs a computerized system to manage the academic data where staff will manage the data value, student and lecturer at the Academic University of Padjajaran multi Service campus Pangandaran. A system makes it easy for staff service in managing the datas or in terms of academic information. In this case, we tried to design a system where the system is akam provides convenience for staff Academic Services so as to provide Information to students or professors who need information about academic University of Padjajaran campus multi apada Pangandaran. As for the project to be built called "Academic Information Systems Architecture and served as a Web-based Panganaran using the Codeigniter Framework".<br>
 <br>
 </p>
 <br>
-<b>1.2	Identifikasi Masalah </b>
+<b>1.2	problem identification </b>
 <p align="justify">
-Berdasarkan latar belakang tersebut dapat di identifikasi bahwa permasalahan yang ada adalah:<br>
-1.	Belum tersedianya sistem informasi akademik yang mumpuni pada Kampus Unpad Pangandaran.<p> 
-2.	Sulitnya megakses system informasi akademik terhadap nilai, mahasiswa dan dosen.<p>
-3.	Waktu yang dibutuhkan untuk mencari data relatif lama yaitu dengan memeriksa setiap berkas yang sangat banyak atau membuka folder-folder di komputer tata usaha.<p>
+Based on the background that has been expressed above, the problem can be identified as follows<br>
+1.  Yet the availability of academic information system on Campus Unpad Pangandaran.<p> 
+2.	Difficulty of access to academic information namely admin, grades, students and lecturers..<p>
+3.	The time required to locate data on relatively long i.e. by checking each file that was very much or open a folder-a folder on the computer..<p>
 </p>
  
-<br><b>1.3	Tujuan</b>
+<br><b>1.3	Purpose</b>
 <p align="justify">
-Tujuan dari pembuatan Sistem Perancangan Pengelolaan Sistem Informasi Akademik Berbasis Web Menggunakan Framework CodeIgniter, yaitu:<br>
-1.	Merancang sebuah aplikasi sistem informasi akademik pada Unpad Pangandaran berbasis website. <br>
-2.	Menyediakan layanan informasi dalam menyimpan data-data akademik berupa data nilai, mahasiswa dan dosen. <br>
-3.	Untuk memudahkan dalam menyampaikan informasi akademik kepada mahasiswa. <br>
+The goal of making the system design of Web-based Academic information system using the CodeIgniter Framework, namely:<br>
+1. designing applications for academic information systems at Unpad Pangandaran based website <br>
+2. Provide the information in the save data value data in the form of academic, student and lecturer.. <br>
+3. to facilitate the academic information to students and professors.. <br>
 </p>
-<br><b>1.4  Ruang Lingkup</b>
+<br><b>1.4   Scope</b>
 <p align="justify">
-Di dalam proposal ini membahas sistem informasi pengajuan proposal karya ilmiah, Materi bahasan dalam proposal ini meliputi bahasa pemograman php, dan adapun batasan masalah materi uraian dalam sebuah proposal, yang dimaksudkan untuk men-spesifikasi materi-materi utama yang harus di bahas dalam proposal ini, adalah sebagai berikut:<br>
-1.	Sistem ini meliputi proses penginputan data proposal karya ilmiah   yang diajukan oleh mahasiswa D4 Teknik Informatika. <br>
-2.	Sistem ini hanya berlaku hingga proses validasi proposal karya ilmiah yang diajukan oleh mahasiswa. <br>
-3.	Data pengajuan proposal karya ilmiah oleh mahasiswa akan dikelola dan di review oleh koordinator.
+n discussing this proposal proposal submission information systems and served as discussion Material in Pangandaran, the proposal includes language programming php, and as for the limitation issue material description in a proposal, which is meant to download specifications main materials that should be discussed in this proposal, are as follows:<br>
+1.	Stage of development of the system is done up at the stage of making web-based applications. <br>
+2.	pplication only discuss about the submission of grades, students and lecturers.. <br>
+3.	Programming Languages that are used as system builders is the Coeigniter Framework and its data base used for the processing of the MySQL software..
 </p>
-<br><b>1.5 Jadwal Kegiatan Pengerjaan Proyek</b>
+<br><b>1.5 Project Work Schedule</b>
 <p>
 <img src="https://github.com/SistemInformasiAkademik/Rancang-Bangun-Sistem-Informasi-Akademik-Unpad-Pangandaran-Berbasis-Web-Menggunakan-Framework-CI/blob/master/img/jawal%20p2.PNG" width="500" height="300">
 </p>
-<p align="center">Gambar 1.1 Jadwal Kegiatan</p>
+<p align="center">Gambar 1.1  Activity Schedule</p>
