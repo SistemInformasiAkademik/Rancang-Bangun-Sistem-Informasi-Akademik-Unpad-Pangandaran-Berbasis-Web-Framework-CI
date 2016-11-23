@@ -1,82 +1,80 @@
-<h3 align="center">BAB II 
-LANDASAN TEORI</h3>
+<h3 align="center">CHAPTER II THE FOUNDATION THEORY</h3>
 <br>
-<b>2.1	Pengertian Sistem Perancangan</b>
+<b>2.1	Understanding System Designn</b>
 <p align="justify">
-Perancangan sistem adalah penentuan proses dan data yang iperlukan oleh sistem baru, sistem itu berbasis computer, perancangn apat inyatakan spesifikasi peralatan yang digunakan</p>
-<b>2.2	Pengertian Sistem Informasi</b>
+The design of the system is the determination of the process and data iperlukan by the new system, computer-based systems, perancangn apat inyatakan specification of the equipment usedn</p>
+<b>2.2	Understanding information systems</b>
 <p align="justify">
-Sistem informasi adalah suatu sistem didalam suatu organisasi yang mempertemukan kebutuhan pengelolaan transaksi, mendukung operasi, bersifat manajerial dan kegiatan strategi dari suatu organisasi dan menyediakan pihak luar tertentu dengan laporan-laporan yang dibutuhkan.
+Information system is a system in an organization that meet the needs of the management of transactions, supporting the operation, activities and strategies of the managerial nature of an organization and provides a certain outside parties with the required reports.
 </p>
-<b>2.3	Pengertian Akademik</b>
+<b>2.3 Academic Sense</b>
 <p align="justify">
-Sistem informasi Akademik adalah Sistem yang menberikan layanan informasi yang berupa data dalam hal yang berhubungan dengan akademi. Dimana dalam hal ini pelayanan yang diberikan yaitu seperti : penyimpanan data untuk baru, penetuan kelas, penentuan jadwal pelajaran, pembuatan jadwal mengajar, pembagian wali kelas, proses penilaian.</p>
+Academic information system is a system that menberikan information services in the form of data in matters relating to the Academy. Where in this case the ministries i.e like: new data for storage, penetuan, determining the schedule class lessons, teaching schedules, making sharing of homeroom, the assessment process.</p>
 <b>
-2.4	Pengertian Codeigniter</b>
+2.4	 Understanding Codeigniter</b>
 <p align="justify">
-Codeigniter adalah suatu framework yang telah dilengkapi dengan fasilitas yang memudahkan penggunanya untuk membuat aplikasi website. Misalnya saja dengan adanya fasilitas error reporting. Tetapi, fasilitas error reporting. Tetapi fasilitas ini juga dapat digunakan hacker untuk mengetahui kelemaham website kita pula, sehingga dengan berbekal kelemahan tersebut, system website kita dapat ditembus.
-CodeIigniter dibangun berbasis MVC yaitu (Models, View, Controller) yang memisahkan antara tampilan dan logic aplikasi. Models ¬adalah bagian yang betanggungjawab terhadap operasi database baik itu create, read, upadate dan delete berupa fungsi-fungsi operasional database yang dipanggil oleh controller. View adalah bagian menangani tampilan, bagian  inilah yang bertugas unutk mempresentasikan data kepada user berbentuk struktur HTML yang berisikan variable data yang dikirim oleh controller. Controller adalah bagian yang mengatur hubungan anatar model dan view. Terdiri dari fungsi-fungsi yang bersifat operasional logikal.
+CodeIgniter is a framework that has been equipped with the amenities that make it easy for users to make apps website. For example, the existence of error reporting facilities. However, error reporting facilities. But this facility can also be used to find out the hacker kelemaham our website anyway, so with the weakness of our website, the system can be penetrated. CodeIigniter constructed based MVC (Models, View, Controller) which separates the display and application logic. Models ¬ is the part that betanggungjawab against the database operations either create, read, and delete upadate be operational database functions that are called by the controller. View is part of the deal with the appearance, this is part of the duty to present data to the user shape the structure of HTML that contains variable data sent by the controller. The controller is the part that regulates the relationship between the model and the view. Consists of functions that are logical operations.
 <img src="https://github.com/SistemInformasiAkademik/Rancang-Bangun-Sistem-Informasi-Akademik-Unpad-Pangandaran-Berbasis-Web-Menggunakan-Framework-CI/blob/master/img/CI.PNG" width="500" height="300">
 </p>
 <b>
-2.5	Pengertian Bootstrap<br>
-<p align="justify">
-CCS Bootstrap merupakan framework front-end yang menggunakan HTML, CSS dan JavaScript yang dapat membuat aplikasi web yang responsive dan dapat digunakan pada lingkup perangkat mobile dapat membuat layout halaman website, table, tombol, form, naviasi dan komponen lainnya dalam sebuah website.
+2.5 Understanding Bootstrap <br>
+< p align = "justify" >
+CCS Bootstrap is a front-end framework that uses HTML, CSS and JavaScript that can make web applications that are responsive and can be used on the scope of the mobile devices can make a Web page, table layout, buttons, forms, naviasi and other components in a website.
 </p>
-<b>2.6 Pengertian MySQL</b>
-<p align="justify">
-MySql merupakan software yang tergolong database server dan bersifat opensource. Open Source menyatakan bahwa software ini dilengkapi dengan source code (kode yang dipakai untuk membuat MySQL) yang dapat dijalankan secara langsung dalam system operasi. MySQL bersifat multiplatform yaitu dapat dijalankan pada berbagai system operasi. Pengaksesan database dapat dilakukan dengan mudah melalui SQL (Structured Query Language). Data dalam database dapat diakses melalui aplikasi non web maupun aplikasi web misalnya PHP.
+<b> 2.6 Understanding MySQL </b>
+< p align = "justify" >
+MySQL is a database server belongs to the software and is opensource. Open Source States that this software comes with source code (the code that is used to create MySQL) that can be run directly in the operating system. Multiplatform nature i.e. MySQL can run on different operating systems. Access databases can be done easily through the SQL (Structured Query Language). The data in the database can be accessed through the web or non application of web applications such as PHP.
 </p>
-<b>2.7	Pengertian UML</b>
-<p align="justify">
+<b> 2.7 Understanding UML </b>
+< p align = "justify" >
 <img src="https://github.com/SistemInformasiAkademik/Rancang-Bangun-Sistem-Informasi-Akademik-Unpad-Pangandaran-Berbasis-Web-Menggunakan-Framework-CI/blob/master/img/STAR%20UML.PNG" width="500" height="300">
-Secara umum UML merupaka ‘bahasa’ untuk visualisasi, spesifikasi, konstruksi, serta dokumentasi. Dalam kerangka visualisasi, para pengembang menggunakan UML sebagai suatu cara untuk mengkomunikasikan idenya kepada para pemrogram serta calon pengguna sistem/ perangkat lunak.
-Dalam keangka spesifikasi, UML menyediakan model- model yang tepat, tidak mendua-arti (ambigu), serta lengkap. Secara khusus, UML menspesifikasi langkah- langkah penting dalam pengambilan keputusan analisis, perancangan, serta implementasi dalam sistem yang sangat bernuansa perangkat lunak. Dalam hal ini UML bukanlah merupakan bahasa pemrograman tetapi model- model yang tercipta berhubungan langsung dengan berbagai macam bahasa pemrograman berorientasi objek, seperti Java, Delphi, C++, Visual Basic, dan lain- lain. UML mendefinisikan diagram-diagram sebagai berikut :
-<b> 2.7.1	Use Case Diagram </b>
-Use case diagram menggambarkan fungsionalitas yang diharapkan dari sebuah sistem. Yang ditekankan adalah “apa” yang diperbuat sistem, dan bukan “bagaimana”. Sebuah use case merepresentasikan sebuah interaksi antara aktor dengan system.
-<b> 2.7.2	Class Diagram </b> 
-Class adalah sebuah spesifikasi yang jika diinstansiasi akan menghasilkan sebuah objek dan merupakan inti dari pengembangan dan desain berorientasi objek. Class menggambarkan keadaan (atribut/properti) suatu sistem, sekaligus menawarkan layanan untuk memanipulasi keadaan tersebut (metoda/fungsi).
-<b> 2.7.3	Sequence Diagram </b>
-Menggambarkan  kolaborasi dinamis antara sejumlah  object. Kegunaanya untuk menunjukkan rangkaian pesan yang dikirim antara  object juga interaksi antara  object, sesuatu yang terjadi pada titik tertentu dalam eksekusi sistem.
-<b> 2.7.4	Statechart Diagram </b>
-Statechart diagram menggambarkan transisi dan perubahan keadaan (dari satu state ke state lainnya) suatu objek pada sistem sebagai akibat dari stimuli yang diterima. Pada umumnya statechart diagram menggambarkan class tertentu (satu class dapat memiliki lebih dari satu statechart diagram). 
-<b> 2.7.5	Collaboration Diagram </b>
-Collaboration diagram juga menggambarkan interaksi antar objek seperti sequence diagram, tetapi lebih menekankan pada peran masing-masing objek dan bukan pada waktu penyampaian message.  Setiap message memiliki sequence number, di mana message dari level tertinggi memiliki nomor 1. Messages dari level yang sama memiliki prefiks yang sama.
-<b> 2.7.6	Activity Diagram </b> 
-Activity diagram merupakan state diagram khusus, di mana sebagian besar state adalah action dan sebagian besar transisi di-trigger oleh selesainya state sebelumnya (internal processing). Oleh karena itu activity diagram tidak menggambarkan behaviour internal sebuah sistem (dan interaksi antar subsistem) secara eksak, tetapi lebih menggambarkan proses-proses dan jalur-jalur aktivitas dari level atas secara umum.
-<b> 2.7.7	Component Diagram </b>
-Component diagram menggambarkan struktur dan hubungan antar komponen piranti lunak, termasuk ketergantungan (dependency) di antaranya.  
-<b> 2.7.8	Deployment diagram. </b>
-Deployment/physical diagram menggambarkan detail bagaimana komponen di-deploy dalam infrastruktur sistem, di mana komponen akan terletak (pada mesin, server atau piranti keras apa), bagaimana kemampuan jaringan pada lokasi tersebut, spesifikasi server, dan hal-hal lain yang bersifat fisikal.
+In general the UML is the ' language ' for visualization, specification, construction, as well as documentation. Within the framework of the visualization, the developers use UML as a way to communicate the idea to programmers as well as prospective users of the system/software.
+In the keangka specification, UML provides the right models, not double-meaning of (ambiguous), as well as complete. In particular, the UML specifies important steps in decision making analysis, design, and implementation in a very nuanced system software. In this case the UML is not a programming language but the models that are created directly related to a wide range of object-oriented programming languages, such as Java, Delphi, C++, Visual Basic, and others. Defining the UML diagrams as follows:
+<b> 2.7.1 Use Case Diagrams </b>
+Use case diagrams describe the functionality expected from a system. That are emphasized are the "what" that made the system, and not the "how". A use case represents an interaction between actors with the system.
+2.7.2 <b> Class Diagram </b>
+A class is a specification that if the diinstansiasi will produce an object and is the core of development and object-oriented design. The class describes the State (attributes/properties) of a system, while also offering services to manipulate the situation (the method/function).
+<b> 2.7.3 Sequence Diagram </b>
+Describe the dynamic collaboration between a number of the object. Kegunaanya to show a series of messages sent between objects is also the interaction between object, something that occurs at a particular point in the execution of the system.
+<b> 2.7.4 Statechart Diagram </b>
+Statechart diagram illustrates transitions and changes state (from one state to another state) of an object on the system as a result of stimuli it receives. Statechart diagrams generally describe a particular class (a class can have more than one statechart diagram).
+<b> </b> Collaboration Diagram 2.7.5
+Collaboration diagram also depicts the interactions between objects such as sequence diagrams, but put more emphasis on the role of each object and not at the time of delivery of the message. Each message has a sequence number, where the message from the highest level has the number 1. Messages from the same level have the same prefix.
+<b> 2.7.6 Activity Diagram </b>
+Activity diagram is a special state diagram, where most of the state is mostly action and transition-trigger by the completion of the previous state (internal processing). Therefore the activity diagram does not describe the internal behavior of a system (and interactions between subsystems) are exact, but rather describes the processes and the activities of top level in General.
+<b> 2.7.7 </b> Diagram Component
+Component diagram illustrates the structure and relationships between software components, including dependence (dependency) in between.
+<b> 2.7.8 Deployment diagram. </b>
+Deployment diagram illustrates the physical/detail how components on-deploy in infrastructure system, where the component will be located (on the machine, server or hardware what), what about the ability of the network on that location, specifications of the server, and other things that are relevant.
 </p>
 <b>
-2.8	Sublime Texs 3</b>
+2.8 Sublime Texs 3 </b>
 <br>
 <img src="https://github.com/SistemInformasiAkademik/Rancang-Bangun-Sistem-Informasi-Akademik-Unpad-Pangandaran-Berbasis-Web-Menggunakan-Framework-CI/blob/master/img/sublime.PNG" width="500" height="300">
 <p align="justify">
-Sublime Text adalah teks editor berbasis Python, sebuah teks editor yang elegan, kaya akan fitur, cross-platform, mudah dan simpel yang cukup terkenal di kalangan pengembang, penulis, dan desainer. Para programmer biasanya menggunakan sublime Text untuk menyunting source code yang sedang ia kerjakan. Sampai saat ini Sublime Text sudah mencapai pada versi 3 Beta. [ Yusti, 2015]
-Berikut ini adalah beberapa kelebihan yang di milki Sublime Text:
-1.	Multi Platform
-Kelebihan pertama dari Sublime Text adalah software ini tersedia dalam berbagai platform sistem operasi, antara lain Windows, Linux dan MacOs. 
-2.	Membuka File Besar
-Sublime Text mampu membuka dan mengedit sebuah file teks yang sangat besar tanpa masalah.
-3.	Drag & Drop
-Menyeret dan melepas file teks ke dalam editor akan membuka tab baru secara otomatis. Anda juga bisa menentukan lokasi tab pada saat menyeret file teks tersebut. 
-4.	Editor Sublime Text yang terpisah bisa di jadikan sebagai tab 
-Editor Sublime Text pada jendela terpisah bisa jadikan sebagai tab baru dengan cara di seret. Tampilan jendela dapat dibagi baik secara vertikal maupun horizontal.
+Sublime Text is the text-based editor of the Python, a text editor, a feature-rich, cross-platform, easy and simple, which is quite popular among developers, writers, and designers. Programmers usually use sublime Text to edit the source code that is being used to do it. Up to this point Sublime Text already achieved on version 3 Beta. [Yusti, 2015]
+The following are some advantages in milki Sublime Text:
+1. Multi Platform
+The advantages first of Sublime Text is this software is available in a variety of operating system platforms, including Windows, Linux and MacOs.
+2. Open large files
+Sublime Text is able to open and edit a very large text file without problems.
+3. Drag Drop &
+Drag and drop text files into the editor will open a new tab automatically. You can also specify the location of the tabs on the text file while dragging.
+4. Editor's Sublime Text can be set as separate as a tab
+Sublime Text Editor in a separate window can be set as a new tab in a way in drag. The display window can be split either vertically or horizontally.
 </p>
 <b>
-2.9	Software yang digunakan<br>
-<p align="justify">
-Sublime Text adalah teks editor berbasis Python, sebuah teks editor yang elegan, kaya akan fitur, cross-platform, mudah dan simpel yang cukup terkenal di kalangan pengembang, penulis, dan desainer. Para programmer biasanya menggunakan sublime Text untuk menyunting source code yang sedang ia kerjakan. Sampai saat ini Sublime Text sudah mencapai pada versi 3 Beta. [ Yusti, 2015]
+1.8 Software used <br>
+< p align = "justify" >
+Sublime Text is the text-based editor of the Python, a text editor, a feature-rich, cross-platform, easy and simple, which is quite popular among developers, writers, and designers. Programmers usually use sublime Text to edit the source code that is being used to do it. Up to this point Sublime Text already achieved on version 3 Beta. [Yusti, 2015]
 <br>
-Berikut ini adalah beberapa kelebihan yang di milki Sublime Text:<br>
-1.	Multi Platform<br>
-Kelebihan pertama dari Sublime Text adalah software ini tersedia dalam berbagai platform sistem operasi, antara lain Windows, Linux dan MacOs. <br>
-2.	Membuka File Besar<br>
-Sublime Text mampu membuka dan mengedit sebuah file teks yang sangat besar tanpa masalah.<br>
-3.	Drag & Drop<br>
-Menyeret dan melepas file teks ke dalam editor akan membuka tab baru secara otomatis. Anda juga bisa menentukan lokasi tab pada saat menyeret file teks tersebut. <br>
-4.	Editor Sublime Text yang terpisah bisa di jadikan sebagai tab <br>
-Editor Sublime Text pada jendela terpisah bisa jadikan sebagai tab baru dengan cara di seret. Tampilan jendela dapat dibagi baik secara vertikal maupun horizontal. 
+The following are some advantages in milki Sublime Text: <br>
+1. Multi Platform <br>
+The advantages first of Sublime Text is this software is available in a variety of operating system platforms, including Windows, Linux and MacOs. <br>
+2. Open a large File <br>
+Sublime Text is able to open and edit a very large text file without problems. <br>
+3. Drag Drop & <br>
+Drag and drop text files into the editor will open a new tab automatically. You can also specify the location of the tabs on the text file while dragging. <br>
+4. Editor's Sublime Text can be set as separate as <br> tab
+Sublime Text Editor in a separate window can be set as a new tab in a way in drag. The display window can be split either vertically or horizontally.
 </p>
